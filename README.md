@@ -16,7 +16,7 @@ or
 $ docker compose up -d # To detach the container and remove after stopped
 ```
 
-The app should be running on ``http://localhost:3000``
+The app should be running on [http://localhost:3000](http://localhost:3000)
 
 ## Running the app
 - To create new todo list, move the cursor/pointer to bottom "Add a Task" input
@@ -25,7 +25,7 @@ The app should be running on ``http://localhost:3000``
 - To mark the list as completed, tick the checkbox before the name/title, the completed tasks/lists will be moved to the bottom with "completed" badge
 - To delete the list, click the trash icon button on the right side.
 
-![](https://github.com/fazrialfan/todo-app/blob/main/todo-tutorial.gif)
+![](https://raw.githubusercontent.com/fazrialfan/todo-app/main/todo-tutorial.gif)
 
 ## Resources
  - Repository - https://github.com/fazrialfan/todo-app
