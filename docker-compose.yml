@@ -1,0 +1,27 @@
+version: '2'
+services:
+  app:
+    container_name: todo_app
+    image: fazri/todoapp
+    ports:
+      - 3000:3000/tcp
+    environment:
+      DB__PASSWORD: secret123
+      DB__NAME: todo
+      DB__HOST: db
+    networks:
+      - todo-network
+
+  db:
+    container_name: todo_mysql
+    image: mariadb
+    restart: always
+    networks:
+      - todo-network
+    environment:
+      MARIADB_ROOT_PASSWORD: secret123
+      MARIADB_DATABASE: todo
+
+networks:
+  todo-network:
+    driver: bridge

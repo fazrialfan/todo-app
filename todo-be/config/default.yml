@@ -1,0 +1,10 @@
+app:
+  port: 3000
+
+db:
+  host: localhost
+  port: 3306
+  username: root
+  password:
+  database: todoapp
+  synchronize: true

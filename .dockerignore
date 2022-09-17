@@ -1,0 +1,8 @@
+**/*/node_modules
+**/*/.env.development
+**/*/build
+**/*/dist
+**/*/.idea
+**/*/test
+.git
+

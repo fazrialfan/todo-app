@@ -1,0 +1,9 @@
+db:
+  host: "DB__HOST"
+  database: "DB__NAME"
+  password: "DB__PASSWORD"
+  port: "DB__PORT"
+  user: "DB__USER"
+
+app:
+  port: "APP__PORT"
